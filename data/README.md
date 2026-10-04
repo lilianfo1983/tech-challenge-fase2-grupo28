@@ -10,8 +10,16 @@ datasets em Git incham o repositório e frequentemente violam a licença da font
 
 Documente abaixo como obter os dados brutos, para que qualquer pessoa consiga reproduzir o projeto.
 
-## Como obter
+### application_record.csv
 
-1. Baixe em: <!-- PREENCHER: URL -->
-2. Salve como: `data/raw/<!-- PREENCHER: nome do arquivo -->`
-3. Checksum (opcional, recomendado): `shasum -a 256 data/raw/<arquivo>`
+- Baixe em: [Kaggle](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
+- Arquivo: `application_record.csv`
+- Local: `data/raw/application_record.csv`
+- SHA-256: '4833F502D02AD94295DE3FFE74F665E726A4B04342D2E94F8CEC41DCE951925B'
+
+### credit_record.csv
+
+- Fonte: [Kaggle](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
+- Arquivo: `credit_record.csv`
+- Local: `data/raw/credit_record.csv`
+- SHA-256: 'BA0006A4734F74422D68B0A7132AD591850BE0A6AFFB535EB1042D207FE4B27E'
