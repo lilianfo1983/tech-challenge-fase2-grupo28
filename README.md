@@ -81,10 +81,7 @@ Depois execute os notebooks nesta ordem:
 
 | # | Notebook | O que faz |
 |---|---|---|
-| 1 | `notebooks/01_eda.ipynb` | Análise exploratória |
-| 2 | `notebooks/02_preprocessamento.ipynb` | Limpeza, escala e feature engineering |
-| 3 | `notebooks/03_modelagem.ipynb` | Treino e comparação dos modelos |
-| 4 | `notebooks/04_avaliacao.ipynb` | Métricas, importância de variáveis e conclusões |
+| 1 | `notebooks/Tech_Challenge_grupo28_v3.ipynb` | Análise exploratória, limpeza, escala, feature engineering, treina e compara os modelos, métricas, importância de variáveis e conclusão  |
 
 **Semente fixa:** `RANDOM_STATE = 42`, declarada na primeira célula de cada notebook.
 Rodar os notebooks na ordem acima, a partir de um ambiente limpo, deve reproduzir
