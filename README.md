@@ -67,11 +67,17 @@ Esse desbalanceamento foi considerado durante a modelagem e avaliação. Por ess
 ### Dataset
 
 | Fonte | Kaggle – Credit Card Approval Prediction |
+
 | URL | https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction |
+
 | Arquivos | `application_record.csv` e `credit_record.csv` |
+
 | Linhas × colunas – APPLICATION | 438.557 × 18 |
+
 | Linhas × colunas – CREDIT | 1.048.575 × 3 |
+
 | Período / versão | Dataset disponibilizado na plataforma Kaggle; não há período temporal/calendário explicitamente informado nos arquivos |
+
 | Licença de uso | CC0: Domínio Público |
 
 Descrição das variáveis:
