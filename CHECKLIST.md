@@ -4,48 +4,48 @@ Rode esta lista antes de submeter.
 
 ## Acesso (causa nº 1 de problema na entrega)
 
-- [ ] Repositório **público** — confirmado em janela anônima
-- [ ] Vídeo abre sem pedir permissão — confirmado em janela anônima
-- [ ] Apresentação abre e está em PDF
+- [X] Repositório **público** — confirmado em janela anônima
+- [X] Vídeo abre sem pedir permissão — confirmado em janela anônima
+- [X] Apresentação abre e está em PDF
 
 ## Repositório
 
-- [ ] Pastas `data/`, `notebooks/` e `docs/` presentes
-- [ ] `README.md` sem nenhum `<!-- PREENCHER -->` restante
-- [ ] `README.md` descreve projeto, dataset, como reproduzir e conclusões
-- [ ] `requirements.txt` com as bibliotecas efetivamente usadas e versões fixas
-- [ ] Notebooks com células numeradas em ordem crescente
-- [ ] Saídas dos gráficos salvas nos notebooks
-- [ ] Nenhum dataset ou arquivo `.pkl` commitado por engano
-- [ ] Sem arquivos `Untitled.ipynb`, `teste.py`, `.DS_Store`
+- [X] Pastas `data/`, `notebooks/` e `docs/` presentes
+- [X] `README.md` sem nenhum `<!-- PREENCHER -->` restante
+- [X] `README.md` descreve projeto, dataset, como reproduzir e conclusões
+- [X] `requirements.txt` com as bibliotecas efetivamente usadas e versões fixas
+- [X] Notebooks com células numeradas em ordem crescente
+- [X] Saídas dos gráficos salvas nos notebooks
+- [X] Nenhum dataset ou arquivo `.pkl` commitado por engano
+- [X] Sem arquivos `Untitled.ipynb`, `teste.py`, `.DS_Store`
 
 ## Conteúdo
 
-- [ ] Contexto de negócio e motivação para ML
-- [ ] Variável alvo definida, com limiar justificado
-- [ ] Fonte, dimensões e dicionário de variáveis do dataset
-- [ ] Distribuições, correlações, outliers e balanceamento — todos com texto interpretativo
-- [ ] Nulos verificados e documentados
-- [ ] Normalização aplicada com justificativa
-- [ ] Feature engineering feita **ou** a não-aplicação justificada
-- [ ] Pelo menos **dois** modelos distintos treinados
-- [ ] Split ou cross-validation documentado, sem vazamento
-- [ ] `RANDOM_STATE` fixo em todos os pontos aleatórios
-- [ ] Métricas além de acurácia: F1, AUC-ROC, precisão, recall
-- [ ] Escolha das métricas justificada pelo contexto
-- [ ] Feature importance analisada e comentada
-- [ ] Implicações práticas discutidas em linguagem de negócio
+- [X] Contexto de negócio e motivação para ML
+- [X] Variável alvo definida, com limiar justificado
+- [X] Fonte, dimensões e dicionário de variáveis do dataset
+- [X] Distribuições, correlações, outliers e balanceamento — todos com texto interpretativo
+- [X] Nulos verificados e documentados
+- [X] Normalização aplicada com justificativa
+- [X] Feature engineering feita **ou** a não-aplicação justificada
+- [X] Pelo menos **dois** modelos distintos treinados
+- [X] Split ou cross-validation documentado, sem vazamento
+- [X] `RANDOM_STATE` fixo em todos os pontos aleatórios
+- [X] Métricas além de acurácia: F1, AUC-ROC, precisão, recall
+- [X] Escolha das métricas justificada pelo contexto
+- [X] Feature importance analisada e comentada
+- [X] Implicações práticas discutidas em linguagem de negócio
 
 ## Apresentação e vídeo
 
-- [ ] Apresentação em `docs/apresentacao_executiva.pdf`
-- [ ] Storytelling conecta os insights — não é uma sequência de gráficos
-- [ ] Vídeo com **≤ 5 minutos**
-- [ ] Ao menos um integrante aparece ou narra
-- [ ] Linguagem executiva, sem jargão técnico
+- [X] Apresentação em `docs/apresentacao_executiva.pdf`
+- [X] Storytelling conecta os insights — não é uma sequência de gráficos
+- [X] Vídeo com **≤ 5 minutos**
+- [X] Ao menos um integrante aparece ou narra
+- [X] Linguagem executiva, sem jargão técnico
 
 ## Submissão
 
-- [ ] PDF com os três links gerado
-- [ ] Links do PDF idênticos aos do README
-- [ ] PDF enviado na plataforma
+- [X] PDF com os três links gerado
+- [X] Links do PDF idênticos aos do README
+- [X] PDF enviado na plataforma
