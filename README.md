@@ -190,10 +190,26 @@ Em uma aplicação real, também devem ser avaliados aspectos de governança, ex
 ## 7. Estrutura do repositório
 
 ```
-.
-├── data/          dados brutos (raw) e tratados (processed) — não versionados
-├── notebooks/     análise em ordem numerada
-└── docs/          apresentação executiva
+├── .gitignore
+├── CHECKLIST.md
+├── README.md                          Preenchido
+├── requirements.txt                   versões fixas do que foi realmente usado
+│
+├── data
+│   ├── README.md                      Com instruções para baixar o dataset
+│   ├── raw/                           vazio no Git — dados não versionados
+│   └── processed/                     vazio no Git — gerado pelo notebook 02
+│
+├── docs
+│   ├── README.md
+│   └── apresentacao_executiva.pdf
+│
+└── notebooks
+    ├── 01_eda.ipynb
+    ├── 02_preprocessamento.ipynb
+    ├── 03_modelagem.ipynb
+    ├── 04_avaliacao.ipynb
+    └── README.md
 ```
 
 Detalhes e convenções em [`ESTRUTURA.md`](ESTRUTURA.md).
