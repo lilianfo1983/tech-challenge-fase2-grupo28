@@ -193,7 +193,7 @@ Em uma aplicação real, também devem ser avaliados aspectos de governança, ex
 ├── .gitignore
 ├── CHECKLIST.md
 ├── README.md                          Preenchido
-├── requirements.txt                   versões fixas do que foi realmente usado
+├── requirements.txt                   OK
 │
 ├── data
 │   ├── README.md                      Com instruções para baixar o dataset
@@ -202,13 +202,10 @@ Em uma aplicação real, também devem ser avaliados aspectos de governança, ex
 │
 ├── docs
 │   ├── README.md
-│   └── apresentacao_executiva.pdf
+│   └── Apresentação Risco de Crédito 0 Tech Challenge Grupo 28.pdf
 │
 └── notebooks
-    ├── 01_eda.ipynb
-    ├── 02_preprocessamento.ipynb
-    ├── 03_modelagem.ipynb
-    ├── 04_avaliacao.ipynb
+    ├── Tech_Challenge_grupo28_v3.ipynb
     └── README.md
 ```
 
