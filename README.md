@@ -225,10 +225,9 @@ As bases de dados originais e os dados processados não são versionados no GitH
 A pasta results/figures reúne os gráficos gerados durante a análise exploratória e a avaliação dos modelos. A pasta results/metrics contém os arquivos CSV com as métricas de desempenho, as previsões da Random Forest e a importância das variáveis da Regressão Logística. Já a pasta results/models armazena o modelo treinado de Regressão Logística, salvo no formato Joblib.
 
 ```
-
 Detalhes e convenções em [`ESTRUTURA.md`](ESTRUTURA.md).
 Antes de enviar, percorra o [`CHECKLIST.md`](CHECKLIST.md).
-
+```
 ---
 
 ## 8. Tecnologias
