@@ -34,26 +34,54 @@ Nomes de arquivo são ilustrativos, mas a organização deve ser esta.
 
 ```
 .
+tech-challenge-fase2-grupo28/
 ├── .gitignore
 ├── CHECKLIST.md
-├── README.md                          preenchido, sem marcadores PREENCHER
-├── requirements.txt                   versões fixas do que foi realmente usado
+├── ESTRUTURA.md
+├── README.md
+├── requirements.txt
 │
-├── data
-│   ├── README.md                      instruções para baixar o dataset
-│   ├── raw/                           vazio no Git — dados não versionados
-│   └── processed/                     vazio no Git — gerado pelo notebook 02
-│
-├── docs
+├── data/
 │   ├── README.md
-│   └── apresentacao_executiva.pdf
+│   ├── raw/                           Dados originais, não versionados
+│   └── processed/                     Dados processados, não versionados
 │
-└── notebooks
-    ├── 01_eda.ipynb
-    ├── 02_preprocessamento.ipynb
-    ├── 03_modelagem.ipynb
-    ├── 04_avaliacao.ipynb
-    └── README.md
+├── docs/
+│   ├── README.md
+│   └── Apresentação Risco de Crédito 0 Tech Challenge Grupo 28.pdf
+│
+├── notebooks/
+│   ├── README.md
+│   └── Tech_Challenge_grupo28_v3.ipynb
+│
+└── results/
+    ├── figures/
+    │   ├── curva_precision_recall.png
+    │   ├── curva_roc.png
+    │   ├── distribuicao_bons_maus_pagadores.png
+    │   ├── distribuicao_idade_classificacao.png
+    │   ├── distribuicao_renda_transformada.png
+    │   ├── distribuicao_status_credito.png
+    │   ├── matriz_confusao_logistica.png
+    │   ├── matriz_confusao_random_forest.png
+    │   ├── permutation_importance_logistica.png
+    │   └── taxa_maus_pagadores_tipo_renda.png
+    │
+    ├── metrics/
+    │   ├── importancia_variaveis_logistica.csv
+    │   ├── metricas_modelos.csv
+    │   └── predicoes_random_forest.csv
+    │
+    └── models/
+        └── modelo_logistic_regression.joblib
+
+**Observações sobre a organização**
+
+O projeto utiliza um notebook principal, em vez de quatro notebooks numerados.
+Os dados originais e processados não são incluídos no versionamento.
+Os gráficos, as métricas e o modelo treinado estão organizados na pasta results/.
+O modelo salvo permite reutilizar a pipeline treinada sem executar novamente todas as etapas de treinamento, desde que o ambiente e as dependências sejam compatíveis.
+A estrutura documenta a organização atual do projeto, sem implicar que todas as convenções do template original tenham sido adotadas.
 ```
 
 ## Convenções
