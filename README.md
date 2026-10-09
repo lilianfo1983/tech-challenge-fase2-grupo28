@@ -54,11 +54,13 @@ A variável-alvo (TARGET) foi construída a partir da variável STATUS, presente
 Para transformar o problema em uma tarefa de classificação binária, os registros foram agrupados em duas categorias:
 
 **0 – Bom pagador:** cliente que não apresentou registros classificados como atraso nos níveis considerados nesta análise;
+
 **1 – Mau pagador:** cliente que apresentou pelo menos um registro com STATUS igual a 1, 2, 3, 4 ou 5.
 
 Dessa forma, foram adotados os seguintes critérios de classificação:
 
 **Bom pagador:** STATUS igual a 0, C ou X, desde que o cliente não apresente nenhum registro com status de 1 a 5;
+
 **Mau pagador:** cliente que apresentou pelo menos um registro com STATUS igual a 1, 2, 3, 4 ou 5.
 
 Os status de 1 a 5 representam diferentes níveis de atraso no histórico mensal de crédito. O status C indica crédito quitado, enquanto X representa ausência de informação de crédito naquele mês. Assim, esses dois últimos status, isoladamente, não caracterizam atraso segundo a regra adotada neste projeto.
