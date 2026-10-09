@@ -1,13 +1,27 @@
 {
-  "turma": "12DTAT",
-  "grupo": "Grupo 00",
+  "turma": "2DTATBB",
+  "grupo": "Grupo 28",
   "integrantes": [
-    { "nome": "Nome Completo do Integrante", "rm": "RM000000" },
-    { "nome": "Nome Completo do Integrante", "rm": "RM000000" }
+    {
+      "nome": "Lilian Fonseca Oliveira",
+      "rm": "RM377750"
+    },
+    {
+      "nome": "Michelle Ventura Oliveira Costa",
+      "rm": "RM377779"
+    },
+    {
+      "nome": "Elisangela Freitas do Nascimento",
+      "rm": "RM377763"
+    },
+    {
+      "nome": "Marcel e Silva de Almeida",
+      "rm": "RM377751"
+    }
   ],
   "links": {
-    "repositorio": "https://github.com/usuario/nome-do-repositorio",
-    "video": "https://www.youtube.com/watch?v=xxxxxxxxxxx",
-    "apresentacao": "https://github.com/usuario/nome-do-repositorio/blob/main/docs/apresentacao_executiva.pdf"
+    "repositorio": "https://github.com/lilianfo1983/tech-challenge-fase2-grupo28.git",
+    "video": "https://youtu.be/NZP1FulhNuYsa",
+    "apresentacao": "https://github.com/lilianfo1983/tech-challenge-fase2-grupo28/blob/aed93386de07bff25ffab7f6473dd16c01fbd0b3/docs/Apresentacao%20Risco%20Cr%C3%A9dito%20-Tech%20Chalange%20Grupo28.pdf"
   }
 }
