@@ -26,9 +26,9 @@ Estes três links são **obrigatórios** e devem ser idênticos aos do PDF de su
 
 | Item | Link |
 |---|---|
-| Repositório | https://github.com/lilianfo1983/tech-challenge-fase2-grupo28.git
-| Vídeo executivo (≤ 5 min) | https://www.youtube.com/watch?v=GGmr7iDzWf4|
-| Apresentação | [Apresentacao Risco Crédito -Tech Chalange Grupo28.pdf](https://github.com/lilianfo1983/tech-challenge-fase2-grupo28/blob/main/docs/apresentacao_gerencial_risco_credito_grupo28.pdf|
+| Repositorio | https://github.com/lilianfo1983/tech-challenge-fase2-grupo28.git
+| Video executivo (≤ 5 min) | https://www.youtube.com/watch?v=GGmr7iDzWf4|
+| Apresentacao | https://github.com/lilianfo1983/tech-challenge-fase2-grupo28/blob/main/docs/apresentacao_gerencial_risco_credito_grupo28.pdf|
 
 > ⚠️ Repositório privado ou inacessível inviabiliza a avaliação da entrega.
 > Confira o acesso em uma janela anônima antes de enviar.
